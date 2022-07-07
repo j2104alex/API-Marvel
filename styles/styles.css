@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    font-family: 'roboto', sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+.container-header {
+    background-color: #232322;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    height: 6vh;
+    text-align: center;
+    padding: 0.2em;
+}
+
+.logo {
+    width: 12%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.nav a {
+    margin-left: 4em;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(239, 236, 236);
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 3px solid #232322;
+}
+
+.nav a:hover {
+    transition: .3s;
+    color: rgb(246, 246, 246);
+    border-bottom: 3px solid #FF0013;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.background-container {
+    width: 100vw;
+    height: 91vh;
+}
+
+.background-container img {
+    width: 100vw;
+    height: 96vh;
+    object-fit: fill;
+    padding: 0;
+    margin: 0;
+}
+
+.principal-container{
+    background-color: rgba(35, 35, 34,0.7);
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.search-container{
+    padding: 1em;
+    width: 90%;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+input {
+    width: 90%;
+    font-family: sans-serif;
+    color: rgb(185, 185, 185);
+    font-size: 1.5em;
+    border-radius: 10px;
+    outline: none;
+    background: none;
+    border: grey;
+    transition: .3s;
+}
+
+input:focus {
+    padding: 5px 5px;
+    box-shadow: 0 0 15px #cf000e,
+                0 0 75px #cf000e;
+    border: 1px solid #cf000e;
+}
+
+input::placeholder {
+    color: grey;
+}
+
+.card{
+    width: 40%;
+    height: 70%;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(145, 145, 145);
+}
+
+.card-image {
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+}
+
+#card-image {
+    margin-top: .5rem;
+    width: 100%;
+    height: 100%;
+}
+
+.character-name {
+    font-size: xx-large;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.character-description {
+    padding: 1rem;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 4vh;
+    background-color: #232322;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 0.2em;
+    align-items: center;
+}
+.copyright{
+    margin: 0 auto;
+    font-size: small;
+    font-weight: bold;
+    color: rgb(239, 236, 236);
+    text-align: center;
+}

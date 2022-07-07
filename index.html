@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARVEL</title>
+    <!--Styles CSS-->
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    <header class="container-header sticky">
+        <img class="logo" src="./assets/img/logo.png">
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">¿Who are we?</a>
+            <a href="#">Hystory</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!--Background image-->
+        <article class="background-container">
+            <img class="background" src="./assets/img/background.jpg">
+        </article>
+        <!--Search-->
+        <article class="principal-container">
+            <section class="search-container">
+                <input id="search-box" class="search-box" placeholder="Insert a character name from Marvel">
+            </section>
+            <section class="card">
+                <label id="character-name" class="character-name" for="Character name"></label>
+                <div class="card-image">
+                    <img id="card-image" src="./assets/img/inicial_image.jpg" alt="Reference image">
+                </div>
+                <div class="card-content">
+                    <p id="character-description" class="character-description">Click on search bar and type a character
+                        name to search it
+                    </p>
+                </div>
+            </section>
+        </article>
+
+    </main>
+    <footer class="footer">
+        <label class="copyright">Marvel ©</label>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
